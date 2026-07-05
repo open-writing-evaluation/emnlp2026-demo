@@ -13,9 +13,15 @@ First install [Python](https://www.python.org/) (latest recommended, software wa
 python -m pip install -r requirements.txt
 ``` 
 #### ERRANT 
-A modified version of our ERRANT toolkit, [jp-errant](https://github.com/open-writing-evaluation/jp-errant-bea), is included in this repository. This does not require a separate installation. However, testers need to download the [character table triplet_no_dup_threshold.csv]() and place the file in the following directory:
+A modified version of our ERRANT toolkit, [jp-errant](https://github.com/open-writing-evaluation/jp-errant-bea), is included in this repository. This does not require a separate installation. However, testers need to place the file character table ```triplet_no_dup_threshold.csv``` in the following directory:
 ```
 /jp_errant/zh/triplet_no_dup_threshold.csv
+```
+A compressed file is already in the directory, simply run the following
+```
+cd jp_errant/zh
+tar -xvf triplet_no_dup_threshold.tar.gz
+cd ../..
 ```
 #### Question Bank
 Next, to setup the question bank, extract the file
