@@ -29,7 +29,7 @@ Next, to setup the question bank, extract the file
 tar -xvf trimmed_questions.tar.gz
 ```
 #### Models
-Lastly, extract the trained models [trained_models.tar.gz]()
+Lastly, extract the trained models trained_models.tar.gz
 ```
 tar -xvf trained_models.tar.gz
 ```
