@@ -146,7 +146,7 @@ The following section will briefly introduce the application's UI and features.
 ## Mobile Application (*Translate it Right!*)
 
 ### Access Link
-Please use the following hyperlink to download the [APK file](https://drive.google.com/file/d/1dPqAWHHMbSyDizz6p_kygUCQkK3hhK7Z/view?usp=sharing) (Google Drive Link).
+Please use the following hyperlink to download the [APK file](https://drive.google.com/file/d/1SbCJH4z1iXmEipEmvT5d1NLU4dZFUoKl/view?usp=sharing) (Google Drive Link).
 
 APK files are installer files native to Android. To install our application, please follow these steps:
 1. Download the APK file via the aforementioned link.
