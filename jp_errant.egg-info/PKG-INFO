@@ -1,0 +1,61 @@
+Metadata-Version: 2.2
+Name: jp_errant
+Version: 3.0.1
+Summary: The Joint Processing - ERRor ANnotation Toolkit (JP-ERRANT). Extract and Classify grammatical erros in multiple languages
+Home-page: 
+Author: Jungyeul Park
+Author-email: jungyeul.park@gmail.com
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: rapidfuzz>=3.4.0
+Requires-Dist: errant>=3.0.0
+Requires-Dist: stanza
+Requires-Dist: pypinyin
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# jp-errant
+Joint-Processing ERRor ANotation Toolkit for multiple languages.
+
+Supported languages:
+- English (full support)
+- Chinese (full support)
+- Korean
+- German
+- Ukrainian
+- Czech 
+
+Supported multi-reference (1 original sentence, with multiple corrected sentences, separated by `tab`)
+
+## Running jp_errant for Chinese
+
+### Setup
+1. Download the pre-calculated table for Chinese Characters (`triplet_no_dup_threshold.csv`) from [Google Drive](https://drive.google.com/file/d/1yusG7PwOSo50fu-ZKH0cSlmsL4GoMN9p/view?usp=drive_link) and place it in the `jp_errant/zh` directory.
+
+2. Install Python (version 3.12 recommended)
+   You can use Conda or any preferred method to install Python.
+
+3. Install requirements:
+```bash
+python3 -m pip install --user -r requirements.txt
+python3 -m pip install -e .
+```
+
+### Example Usage
+Run the tool using the sample data provided in the docs:
+```bash
+jp_errant_parallel -orig docs/data/multi_references/zh_input.txt -cor docs/data/multi_references/zh_ref.tsv -out docs/data/multi_references/zh.m2 -lang zh
+```
+
+Command parameters explanation:
+- `-orig`: Path to the input file containing original sentences (source text)
+- `-cor`: Path to the file containing corrected sentences (reference text) in TSV format (multiple corrections separated by tabs)
+- `-out`: Path where the output M2 file will be generated
+- `-lang`: Language code (zh for Chinese)

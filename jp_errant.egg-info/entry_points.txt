@@ -1,0 +1,4 @@
+[console_scripts]
+jp_errant_compare = jp_errant.commands.compare_m2:main
+jp_errant_m2 = jp_errant.commands.m2_to_m2:main
+jp_errant_parallel = jp_errant.commands.parallel_to_m2:main

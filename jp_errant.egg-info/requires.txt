@@ -1,0 +1,4 @@
+rapidfuzz>=3.4.0
+errant>=3.0.0
+stanza
+pypinyin
