@@ -1,5 +1,5 @@
 # Chinese GEC Applications for L2 Learning
-This repository hosts links to the web and mobile applications introduced by the paper **Chinese GEC Applications Supporting L2 Writing from Translation-Based to Immersive Learning**. Submitted to *EMNLP 2026 System Demonstrations*.
+This repository hosts links to the web and mobile applications introduced by the paper **Typology-Driven Chinese GEC Applications for L2 Sentence Translation and Free-Form Writing**. Submitted to *EMNLP 2026 System Demonstrations*.
 
 ## Requirements
 The applications consist of a backend (server-side) which processes the input sentences and generates corrections, as well as front end interfaces for the user to interact with. For demonstration purposes, we designed this code release to work specifically with a serverless setup all using localhost. 
